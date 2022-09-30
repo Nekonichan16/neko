@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: none;
+    padding: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+    text-decoration: none   ;
+}
+
+#main-header{
+    text-align: center;
+    background-color: lightslategray;
+    color: burlywood;
+    padding:3% ;
+    border: 8PX double lavenderblush;
+    border-radius: 2EM;
+    font-size: x-large;
+
+}
+
+#main-footer{
+    text-align: center;
+    color: antiquewhite;
+    padding: 5%    ;
+    width: NONE;
+    clear: both;
+
+}
+
+aside{
+    float: right;
+    background-color: darkgray;
+    width: 15%;
+    padding-left:0px ;
+    padding-top:20px ;
+    padding-bottom: 50%;
+    border: 8PX double whitesmoke;
+    border-radius: 2EM;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+section{
+    float: left;
+    background-color: blanchedalmond;
+    width: 75%; 
+    padding-left:2% ;
+    padding-top:20px ;
+    padding-bottom: 20%;
+    border: 8PX double whitesmoke;
+    border-radius: 2EM;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+body{
+    background-color: black;
+}
+
+aside ul{
+    padding-left: 0px;
+    list-style: none;
+}
+li{
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted whitesmoke;
+    padding-top: 5px;
+}
+
+img{
+    padding-left: 10px;
+    border-radius: 10% ;
+}
